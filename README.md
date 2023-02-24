@@ -1,4 +1,4 @@
-## picgo-plugin-heic2others
+## picgo-plugin-convert-heic
 
 Convert HEIC Photo to other formats (eg. JPEG).
 
@@ -6,12 +6,20 @@ Currently it only convert HEIC to JPEG with `.jpg` extension name, for uploading
 
 ### Usage
 
-- Searching `heic2others` and install it in `Plugin Settings` in PicGo GUI.
+- Searching `convert-heic` and install it in `Plugin Settings` in PicGo GUI.
 - Executing the folowing command if using PicGo CLI:
 
   ```bash
-  picgo add heic2others
+  picgo add convert-heic
   ```
+
+### Note
+
+- Some files' extension name is `.heic` but they are not HEIC format. 
+  - Uploading them will cause TypeError in logs, but the extension name will be changed.
+    ![Cause TypeError in logs](./img/not-actual-heic-file-term.png)
+  - These files cannot be opened by Photoshop if keep the extension name, which is the best way for most people to tell them from other HEIC files.
+    ![Cannot be opened by Photoshop](./img/not-actual-heic-file-ps.png)
 
 ### Thanks
 
