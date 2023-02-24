@@ -15,11 +15,11 @@ Currently it only convert HEIC to JPEG with `.jpg` extension name, for uploading
 
 ### Note
 
-- Some files' extension name is `.heic` but they are not HEIC format. 
-  - Uploading them will cause TypeError in logs, but the extension name will be changed.
-    ![Cause TypeError in logs](./img/not-actual-heic-file-term.png)
+- Some files' extension name is `.heic` but they are not HEIC format.
+  - Uploading them will cause TypeError in logs, but the extension name will be changed, and you can still paste the URL.
+    ![Cause TypeError in logs](https://static.a4ding.com/img/2023/202302250255857.png/imageslim)
   - These files cannot be opened by Photoshop if keep the extension name, which is the best way for most people to tell them from other HEIC files.
-    ![Cannot be opened by Photoshop](./img/not-actual-heic-file-ps.png)
+    ![Cannot be opened by Photosho](https://static.a4ding.com/img/2023/202302250254130.png/imageslim)
 
 ### Thanks
 
