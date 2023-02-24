@@ -1,12 +1,12 @@
 {
   "name": "picgo-plugin-convert-heic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert HEIC Photo to other formats (eg. JPEG)",
   "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "",
+  "homepage": "https://4ading.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p .",
