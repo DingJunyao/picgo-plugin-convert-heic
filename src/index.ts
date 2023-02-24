@@ -36,7 +36,7 @@ const handle = async (ctx: PicGo): Promise<any> => {
 
 export = (ctx: PicGo) => {
   const register = (): any => {
-    ctx.helper.beforeUploadPlugins.register('heic-to-jpeg', { handle })
+    ctx.helper.beforeUploadPlugins.register('heic2others', { handle })
   }
   return {
     register
