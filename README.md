@@ -7,7 +7,7 @@ Currently it only convert HEIC to JPEG with `.jpg` extension name, for uploading
 ### Usage
 
 - Searching `convert-heic` and install it in `Plugin Settings` in PicGo GUI.
-- Executing the folowing command if using PicGo CLI:
+- Executing the following command if using PicGo CLI:
 
   ```bash
   picgo add convert-heic
